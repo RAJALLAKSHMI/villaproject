@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="dist/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="dist/semantic.min.js"></script>
+  <title>form</title>
+  <style>
+    body{
+      background: url('http://images.all-free-download.com/images/graphicthumb/grass_background_201062.jpg')fixed;
+      margin-left: 0px;
+      margin-right: 0px;
+
+    }
+  </style>
+</head>
+<body>
+  <div class="ui one column center aligned grid">
+  <div class="column six wide form-holder">
+      <h2 class="center aligned header form-head">Sign in</h2>
+<form class="ui form segment" action="index.html">
+    <div class="field">
+      <label>Username</label>
+      <input placeholder="Username" name="username" type="text">
+    </div>
+
+    <div class="field">
+      <label>Password</label>
+      <input placeholder="password" type="password" name="password">
+    </div>
+
+  <div class="inline field">
+    <div class="ui checkbox">
+      <input type="checkbox" name="terms">
+      <label>I agree to the terms and conditions</label>
+    </div>
+  </div>
+  <div class="ui primary submit button">Submit</div>
+  <div class="ui error message"></div>
+
+</form>
+</div>
+
+</div>
+  <script>
+  $('.ui.form').form({
+      fields: {
+        username : 'empty',
+        password : ['minLength[6]', 'empty']
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,10 +1,176 @@
 body {
-    background: url('https://ununsplash.imgix.net/uploads/141362941583982a7e0fc/abcfbca1?q=75&fm=jpg&s=5266baf09e0e878b72b2e34adf2f54a0') fixed;
+    /*background: url('http://www.telegraph.co.uk/content/dam/Travel/leadAssets/30/46/north-island-seych_3046490a-xlarge.jpg') fixed;*/
+  /*background:url('data:image/jpeg;base64,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')fixed;*/
+/*background: url('https://s-media-cache-ak0.pinimg.com/originals/88/83/f5/8883f5b53d2bc885a89090058569902a.jpg')fixed;*/
     background-size: cover;
     padding: 0;
     margin: 0;
+    background: #e3e3e3;
+  /*background: url('../img/dhvtr5fwbhi-christos-barbalis.jpg') fixed;*/
   }
+  #content1{
+    background-color: skyblue;
+    margin-top:40px;
+    font-family: 'Rancho', cursive;
+    font-family: 'Ceviche One', cursive;
+    font-size: 30px;
+  }
+h1{
+  margin-top: 100px;
+  text-align: center;
+  /*font-family: 'Roboto', sans-serif;
+  font-family: 'Lemonada', cursive;*/
+  font-family: 'Open Sans', sans-serif;
+  background: #e3e3e3;
+}
+#sitehead{
+  font-family: 'Rancho', cursive;
+font-family: 'Ceviche One', cursive;
+font-size: 30px;
+background-color: skyblue;
+}
+#para1{
+  font-family: 'Niconne', cursive;
+  font-size: 20px;
+}
+#para2{
+  font-family: 'Niconne', cursive;
+  font-size: 20px;
+}
+#para3{
+  font-family: 'Farsan', cursive;
+  font-size: 20px;
+}
+#iframeimg{
+  width:400px;
+  height: 500px;
+}
+#jumbotron{
+  margin-top: 0px;
+}
+#image1{
+  margin-top: 100px;
+  /*width:300px;*/
+  height: 300px;
+  margin-left: 0px;
+  padding: 0 10px;
+}
+#image2{
+  margin-top: 100px;
+  /*width:300px;*/
+  height: 300px;
+  margin-left: 0px;
+  padding: 0 10px;
 
+}
+#image3{
+  margin-top: 100px;
+  /*width:300px;*/
+  height: 300px;
+  margin-right: 100px;
+    padding: 0 10px;
+}
+#image4{
+  margin-top: 100px;
+  width:300px;
+  height: 300px;
+  margin-right: 100px;
+  padding: 0 10px;
+}
+#about1{
+  text-align: justify;
+  margin-left: auto;
+  width: 300px;;
+  height: 300px;
+}
+#backgro{
+  background: #e3e3e3;
+}
+
+#location1{
+  margin-top: 100px;
+  width:600px;
+  height: 500px;
+  margin-left: 0px;
+  padding: 0 10px;
+
+}
+h2{
+  text-align: center;
+  margin-left: 0px;
+}
+#headcontent
+{
+  background: blue !important;
+  margin-top:20px;
+}
+
+#videoimg{
+  margin-top: 100px;
+  width:600px;
+  height: 600px;
+  margin-right: 100px;
+  padding: 0 10px;
+  margin-left: 0px;
+}
+#right1{
+  padding-left: 40px;
+  margin-top: 200px;
+}
+#right2{
+  padding-left: 40px;
+  margin-top: 100px;
+  margin-right: 0px;
+  padding-right: 0 10px;
+}
+#right3{
+  padding-left: 40px;
+  margin-top: 100px;
+}
+#right4{
+  padding-left: 40px;
+  margin-top: 100px;
+}
+
+/*blockquote{
+  border: 2px solid white;
+  text-align: center;
+  margin-left: auto;
+  background: #e3e3e3;
+  padding-right: 0 10px;
+}*/
+#add1{
+  font-family: 'Shojumaru', cursive;
+  font-size: 20px;
+}
+#add2{
+  font-family: 'Stardos Stencil', cursive;
+    font-size: 20px;
+}
+#card1{
+  font-family: 'Risque', cursive;
+  font-size: 20px;
+}
+#desc{
+  font-family: 'Macondo', cursive;
+  font-size: 20px;
+}
+#com{
+  font-family: 'Lemonada', cursive;
+}
+#footer{
+
+  color: teal;
+  background: black;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Lemonada', cursive;
+  width: 100%;
+  margin:0px;
+
+}
+.i1{
+  margin-top: auto;
+}
   .form-holder {
     background: rgba(255,255,255,0.2);
     margin-top: 10%;
@@ -19,10 +185,49 @@ body {
     text-shadow: 0 0 30px #000;
     margin: 15px auto 30px auto;
   }
+#sidemenu{
+  font-family: 'Allura', cursive;
+font-family: 'Rancho', cursive;
+font-size: 20px;
+}
 
+#mainmenu{
+  font-family: 'Allura', cursive;
+font-family: 'Rancho', cursive;
+font-size: 20px;
+}
+#mainmenulist{
+  font-family: 'Allura', cursive;
+font-family: 'Rancho', cursive;
+margin-top:0px;
+ background-color:black;
+ font-size: 20px;
+}
+#parahead{
+  font-family: 'UnifrakturMaguntia', cursive;
+  font-size: 20px;
+}
   .remember-me {
     text-align: left;
   }
   .ui.checkbox label {
     color: #ddd;
   }
+
+  iframe.utube {
+    width: 100%;
+    height: 500px;
+  }
+
+  ul.addressbox {
+    margin-top: 380px;
+  }
+
+ul li{
+
+  list-style-type:none;
+  text-align: center;
+}
+label{
+  text-align: left;
+}
